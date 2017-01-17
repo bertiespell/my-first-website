@@ -22,12 +22,3 @@ $(document).ready(function () {
             $("header nav").fadeTo('fast', 0.5)
           });
         });
-
-        $(document).ready(function () {
-            $('footer nav').mouseenter(function() {
-                $("footer nav").fadeTo('fast', 1);
-            });
-            $('footer nav').mouseleave(function() {
-                $("footer nav").fadeTo('fast', 0.5)
-              });
-            });
