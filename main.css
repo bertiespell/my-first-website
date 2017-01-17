@@ -28,12 +28,13 @@ section .row img {
 header nav {
   display: flex;
   justify-content: center;
+  opacity: 0.8;
 }
 
 header p {
   padding: 0 50px;
   color: #ffffff;
-  font-size: 20px
+  font-size: 30px
 }
 
 header {
@@ -53,3 +54,23 @@ header .row {
  .aboutUs p {
    font-size: 20px;
  }
+
+ footer {
+  font-size: 20px;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 64px;
+  height: 64px;
+}
