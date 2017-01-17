@@ -22,3 +22,12 @@ $(document).ready(function () {
             $("header nav").fadeTo('fast', 0.5)
           });
         });
+
+        $(document).ready(function () {
+            $(".jumbotron").mouseenter(function() {
+                $(".jumbotron").fadeTo(); //add random picture background effect
+            });
+            $(".jumbotron").mouseleave(function() {
+                $(".jumbotron").fadeTo()
+              });
+            });
