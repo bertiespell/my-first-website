@@ -9,8 +9,24 @@ section .row img {
   width: 100%;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+header nav {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+header p {
+  padding: 0 50px;
+  color: #ffffff;
+  font-size: 30px
+}
+
+header {
+  padding: 10px
+}
+
+header .row {
+  align-items: center;
 }
 
 .jumbotron {
@@ -40,24 +56,9 @@ section .row img {
   text-shadow: 1.55px 0.55px 0.55px #000000;
 }
 
-header nav {
-  display: flex;
-  justify-content: center;
-  opacity: 0.8;
-}
 
-header p {
-  padding: 0 50px;
-  color: #ffffff;
-  font-size: 30px
-}
-
-header {
-  padding: 10px
-}
-header .row
-footer .row  {
-  align-items: center;
+.col-md-6 {
+  margin: 0 0 30px;
 }
 
 .aboutUs {
@@ -76,8 +77,13 @@ footer .row  {
    font-size: 30px;
  }
 
+.aboutUs h1 {
+  align-items: center;
+  text-align: center;
+}
+
  footer {
-  font-size: 20px;
+  font-size: 15px;
   padding: 20px 0;
   color: #ffffff;
 }
@@ -92,6 +98,6 @@ footer ul {
 }
 
 footer li img {
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
 }
