@@ -12,8 +12,9 @@ section .row img {
 header nav {
   display: flex;
   justify-content: center;
-  opacity: 0.8;
+  opacity: 0.3;
 }
+
 
 header p {
   padding: 0 50px;
@@ -38,15 +39,17 @@ header .row {
   background-position: center;
   height: 400px;
   border-radius: 30px;
-  text-shadow: 5.55px 1.55px 1.55px #000000;
+  text-shadow: 7.55px 1.55px 1.55px #000000;
 }
 
 .jumbotron h2 {
-  font-size: 160px;
+  font-size: 150px;
   font-weight: 700;
   margin: 0;
   text-align: center;
   color: #948e9e;
+  font-family: 'Bungee Shade', cursive;
+  letter-spacing: 5px;
 }
 
 .jumbotron h3 {
